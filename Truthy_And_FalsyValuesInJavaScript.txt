@@ -39,23 +39,15 @@ There are only 6 falsy values in JavaScript
 This means that when JavaScript is expecting a boolean and it is given one of the values below, 
 it will always evaluate to “falsy”
 
-false	The keyword false
-0	The number zero.
-BigInt, when used as a boolean, follows the same rule as a Number. 0n is falsy.
-
-"", '', ``	
-This is an empty string(the length of the string is zero).
-
+1)false	=> The keyword false
+2)0	or 0n => The number zero or 0n is falsy,  BigInt, when used as a boolean, follows the same rule as a Number. 
+3)"", '', ``	 => This is an empty string(the length of the string is zero).
 Strings in JavaScript can be defined with double quotes "", or single quotes '', 
 as well as Template literals ``
-
-null	null  - the absence of any object value
-undefined	undefined - the primitive value
-NaN	NaN - not a number
+4)null	=> null  - the absence of any object value
+5)undefined	=> undefined - the primitive value
+6)NaN	=> NaN - not a number
  
-
- 
-
 ExamplesEditSection
 Examples of falsy values in JavaScript (which are coerced to false in Boolean contexts, 
 and thus bypass the if block):
