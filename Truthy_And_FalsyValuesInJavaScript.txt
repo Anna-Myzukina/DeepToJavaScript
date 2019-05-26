@@ -33,23 +33,23 @@ This function takes the val parameter and evaluates it in a boolean context (the
         logTruthiness(new Date());
 As you can see, there are a lot of truthy values in JavaScript. And there are many more than could be listed here. On the other side, though, there are only six falsy values. In fact, because the list of falsy values is so short, memorizing that list is the easiest way to tell whether a value is truthy or falsy. Here is the list:
 
-// Outputs: "Falsy."
-logTruthiness(false);
+            // Outputs: "Falsy."
+            logTruthiness(false);
 
-// Outputs: "Falsy."
-logTruthiness(null);
+            // Outputs: "Falsy."
+            logTruthiness(null);
 
-// Outputs: "Falsy."
-logTruthiness(undefined);
+            // Outputs: "Falsy."
+            logTruthiness(undefined);
 
-// Outputs: "Falsy."
-logTruthiness(NaN);
+            // Outputs: "Falsy."
+            logTruthiness(NaN);
 
-// Outputs: "Falsy."
-logTruthiness(0);
+            // Outputs: "Falsy."
+            logTruthiness(0);
 
-// Outputs: "Falsy."
-logTruthiness("");
+            // Outputs: "Falsy."
+            logTruthiness("");
 That's a pretty straightforward list. But how can we actually use truthiness? Let's look at an example.
 
 function reportAttitude (person) {
